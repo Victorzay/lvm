@@ -1,0 +1,193 @@
+Script started on Wed 12 May 2021 07:02:20 AM UTC
+]0;vagrant@lvm:~[?1034h[vagrant@lvm ~]$ sy[Kudo yum ind[Kstall xfsdump.x86_64 [K[K[K[K[K[K[K[K
+Loaded plugins: fastestmirror
+Loading mirror speeds from cached hostfile
+ * base: mirror.logol.ru
+ * extras: mirror.logol.ru
+ * updates: mirror.logol.ru
+Resolving Dependencies
+--> Running transaction check
+---> Package xfsdump.x86_64 0:3.1.7-1.el7 will be installed
+--> Processing Dependency: attr >= 2.0.0 for package: xfsdump-3.1.7-1.el7.x86_64
+--> Running transaction check
+---> Package attr.x86_64 0:2.4.46-13.el7 will be installed
+--> Finished Dependency Resolution
+
+Dependencies Resolved
+
+====================================================================================================
+ Package               Arch                 Version                        Repository          Size
+====================================================================================================
+Installing:
+ xfsdump               x86_64               3.1.7-1.el7                    base               308 k
+Installing for dependencies:
+ attr                  x86_64               2.4.46-13.el7                  base                66 k
+
+Transaction Summary
+====================================================================================================
+Install  1 Package (+1 Dependent package)
+
+Total download size: 374 k
+Installed size: 1.1 M
+Is this ok [y/d/N]: y
+Downloading packages:
+(1/2): attr-2.4.46-13.el7.x86_64.rpm                                         |  66 kB  00:00:00     
+(2/2): xfsdump-3.1.7-1.el7.x86_64.rpm                                        | 308 kB  00:00:00     
+----------------------------------------------------------------------------------------------------
+Total                                                               968 kB/s | 374 kB  00:00:00     
+Running transaction check
+Running transaction test
+Transaction test succeeded
+Running transaction
+  Installing : attr-2.4.46-13.el7.x86_64 [                                                    ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [###                                                 ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [#########                                           ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [##############                                      ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [###############                                     ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [####################                                ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [#####################                               ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [######################                              ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [##########################                          ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [###########################                         ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [################################                    ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [#################################                   ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [##################################                  ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [####################################                ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [######################################              ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [########################################            ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [##########################################          ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [###########################################         ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [#############################################       ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [###############################################     ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [################################################    ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [#################################################   ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [##################################################  ] 1/2  Installing : attr-2.4.46-13.el7.x86_64 [################################################### ] 1/2  Installing : attr-2.4.46-13.el7.x86_64                                                        1/2 
+  Installing : xfsdump-3.1.7-1.el7.x86_64 [                                                   ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [###                                                ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [######                                             ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [##########                                         ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [#############                                      ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [###############                                    ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [##################                                 ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [######################                             ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [#########################                          ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [#############################                      ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [################################                   ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [###################################                ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [#####################################              ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [#######################################            ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [########################################           ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [###########################################        ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [#############################################      ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [################################################   ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [#################################################  ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64 [################################################## ] 2/2  Installing : xfsdump-3.1.7-1.el7.x86_64                                                       2/2 
+  Verifying  : attr-2.4.46-13.el7.x86_64                                                        1/2 
+  Verifying  : xfsdump-3.1.7-1.el7.x86_64                                                       2/2 
+
+Installed:
+  xfsdump.x86_64 0:3.1.7-1.el7                                                                      
+
+Dependency Installed:
+  attr.x86_64 0:2.4.46-13.el7                                                                       
+
+Complete!
+]0;vagrant@lvm:~[vagrant@lvm ~]$ pvs
+  WARNING: Running as a non-root user. Functionality may be unavailable.
+  /run/lvm/lvmetad.socket: access failed: Permission denied
+  WARNING: Failed to connect to lvmetad. Falling back to device scanning.
+  /run/lock/lvm/P_global:aux: open failed: Permission denied
+  Unable to obtain global lock.
+]0;vagrant@lvm:~[vagrant@lvm ~]$ sudo pvs
+  PV         VG         Fmt  Attr PSize   PFree
+  /dev/sda3  VolGroup00 lvm2 a--  <38.97g    0 
+]0;vagrant@lvm:~[vagrant@lvm ~]$ sudo pvs[5Ppvs[K[K[Klsblk
+NAME                    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda                       8:0    0   40G  0 disk 
+├─sda1                    8:1    0    1M  0 part 
+├─sda2                    8:2    0    1G  0 part /boot
+└─sda3                    8:3    0   39G  0 part 
+  ├─VolGroup00-LogVol00 253:0    0 37.5G  0 lvm  /
+  └─VolGroup00-LogVol01 253:1    0  1.5G  0 lvm  [SWAP]
+sdb                       8:16   0   10G  0 disk 
+sdc                       8:32   0    2G  0 disk 
+sdd                       8:48   0    1G  0 diskScript started on Wed 12 May 2021 07:15:15 AM UTC
+]0;vagrant@lvm:~[?1034h[vagrant@lvm ~]$ lsblk
+NAME                    MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda                       8:0    0   40G  0 disk 
+├─sda1                    8:1    0    1M  0 part 
+├─sda2                    8:2    0    1G  0 part /boot
+└─sda3                    8:3    0   39G  0 part 
+  ├─VolGroup00-LogVol00 253:1    0 37.5G  0 lvm  
+  └─VolGroup00-LogVol01 253:2    0  1.5G  0 lvm  [SWAP]
+sdb                       8:16   0   10G  0 disk 
+└─vg_root-lv_root       253:0    0   10G  0 lvm  /
+sdc                       8:32   0    2G  0 disk 
+sdd                       8:48   0    1G  0 disk 
+sde                       8:64   0    1G  0 disk 
+]0;vagrant@lvm:~[vagrant@lvm ~]$ sudo -s
+]0;root@lvm:/home/vagrant[?1034h[root@lvm vagrant]# lvreduce -L 8G /dev/VolGroup00/LogVol00
+  WARNING: Reducing active logical volume to 8.00 GiB.
+  THIS MAY DESTROY YOUR DATA (filesystem etc.)
+Do you really want to reduce VolGroup00/LogVol00? [y/n]: y
+  Size of logical volume VolGroup00/LogVol00 changed from <37.47 GiB (1199 extents) to 8.00 GiB (256 extents).
+  Logical volume VolGroup00/LogVol00 successfully resized.
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# mkfs.xfs /dev/VolGroup00/LogVol00
+mkfs.xfs: /dev/VolGroup00/LogVol00 appears to contain an existing filesystem (xfs).
+mkfs.xfs: Use the -f option to force overwrite.
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# mkfs.xfs /dev/VolGroup00/LogVol00 -f
+meta-data=/dev/VolGroup00/LogVol00 isize=512    agcount=4, agsize=524288 blks
+         =                       sectsz=512   attr=2, projid32bit=1
+         =                       crc=1        finobt=0, sparse=0
+data     =                       bsize=4096   blocks=2097152, imaxpct=25
+         =                       sunit=0      swidth=0 blks
+naming   =version 2              bsize=4096   ascii-ci=0 ftype=1
+log      =internal log           bsize=4096   blocks=2560, version=2
+         =                       sectsz=512   sunit=0 blks, lazy-count=1
+realtime =none                   extsz=4096   blocks=0, rtextents=0
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# xfs_ch[K[K[K
+xfs_admin      xfsdump        xfs_growfs     xfs_logprint   xfs_ncheck     xfs_rtcp
+xfs_bmap       xfs_estimate   xfs_info       xfs_mdrestore  xfs_quota      
+xfs_copy       xfs_freeze     xfsinvutil     xfs_metadump   xfs_repair     
+xfs_db         xfs_fsr        xfs_io         xfs_mkfile     xfsrestore     
+[root@lvm vagrant]# xfsnch[K[K[K_ncheck --help
+/sbin/xfs_ncheck: illegal option -- -
+usage: xfs_ncheck [-sfV] [-l logdev] [-i ino]... special
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# xfs_ncheck --help[K[K[K[K[Ki
+/sbin/xfs_ncheck: option requires an argument -- i
+usage: xfs_ncheck [-sfV] [-l logdev] [-i ino]... special
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# xfs_ncheck -i[Kh
+/sbin/xfs_ncheck: illegal option -- h
+usage: xfs_ncheck [-sfV] [-l logdev] [-i ino]... special
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# xfs_ncheck -h[KsfV -l /dev/VolGroup00/LogVol00
+xfs_ncheck version 4.5.0
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# xfs_ncheck -sfV -l /dev/VolGroup00/LogVol00[1P[1P[1P[1P[1P
+usage: xfs_ncheck [-sfV] [-l logdev] [-i ino]... special
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# xfs_ncheck -l /dev/VolGroup00/LogVol00[C[1@-[1@V[1@ 
+xfs_ncheck version 4.5.0
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# xfs_ncheck -V -l /dev/VolGroup00/LogVol00[1P[1@s
+usage: xfs_ncheck [-sfV] [-l logdev] [-i ino]... special
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# xfs_ncheck -s -l /dev/VolGroup00/LogVol00[C[1P[1@f
+usage: xfs_ncheck [-sfV] [-l logdev] [-i ino]... special
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# sf[K[Kxfs_
+xfs_admin      xfs_db         xfs_fsr        xfs_io         xfs_metadump   xfs_quota
+xfs_bmap       xfs_estScript started on Wed 12 May 2021 07:56:34 AM UTC
+]0;vagrant@lvm:~[?1034h[vagrant@lvm ~]$ sudo -s
+]0;root@lvm:/home/vagrant[?1034h[root@lvm vagrant]# lvremove /dev/vg_root/lv_root
+Do you really want to remove active logical volume vg_root/lv_root? [y/n]: y
+  Logical volume "lv_root" successfully removed
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# vgremove /dev/vg_root
+  Volume group "vg_root" successfully removed
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# pvremove /dev/sdb
+  Labels on physical volume "/dev/sdb" successfully wiped.
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# lsblk
+NAME                     MAJ:MIN RM  SIZE RO TYPE MOUNTPOINT
+sda                        8:0    0   40G  0 disk 
+├─sda1                     8:1    0    1M  0 part 
+├─sda2                     8:2    0    1G  0 part /boot
+└─sda3                     8:3    0   39G  0 part 
+  ├─VolGroup00-LogVol00  253:0    0    8G  0 lvm  /
+  └─VolGroup00-LogVol01  253:1    0  1.5G  0 lvm  [SWAP]
+sdb                        8:16   0   10G  0 disk 
+sdc                        8:32   0    2G  0 disk 
+sdd                        8:48   0    1G  0 disk 
+├─vg_var-lv_var_rmeta_1  253:4    0    4M  0 lvm  
+│ └─vg_var-lv_var        253:6    0  952M  0 lvm  /var
+└─vg_var-lv_var_rimage_1 253:5    0  952M  0 lvm  
+  └─vg_var-lv_var        253:6    0  952M  0 lvm  /var
+sde                        8:64   0    1G  0 disk 
+├─vg_var-lv_var_rmeta_0  253:2    0    4M  0 lvm  
+│ └─vg_var-lv_var        253:6    0  952M  0 lvm  /var
+└─vg_var-lv_var_rimage_0 253:3    0  952M  0 lvm  
+  └─vg_var-lv_var        253:6    0  952M  0 lvm  /var
+]0;root@lvm:/home/vagrant[root@lvm vagrant]# exit
+exit
+]0;vagrant@lvm:~[vagrant@lvm ~]$ exit
+exit
+Script started on Wed 12 May 2021 09:00:57 AM UTC
+]0;vagrant@lvm:~[?1034h[vagrant@lvm ~]$ ls -l /home/
+total 0
+-rw-r--r--. 1 root    root      0 May 12 08:12 file1
+-rw-r--r--. 1 root    root      0 May 12 08:12 file10
+-rw-r--r--. 1 root    root      0 May 12 08:12 file11
+-rw-r--r--. 1 root    root      0 May 12 08:12 file12
+-rw-r--r--. 1 root    root      0 May 12 08:12 file13
+-rw-r--r--. 1 root    root      0 May 12 08:12 file14
+-rw-r--r--. 1 root    root      0 May 12 08:12 file15
+-rw-r--r--. 1 root    root      0 May 12 08:12 file16
+-rw-r--r--. 1 root    root      0 May 12 08:12 file17
+-rw-r--r--. 1 root    root      0 May 12 08:12 file18
+-rw-r--r--. 1 root    root      0 May 12 08:12 file19
+-rw-r--r--. 1 root    root      0 May 12 08:12 file2
+-rw-r--r--. 1 root    root      0 May 12 08:12 file20
+-rw-r--r--. 1 root    root      0 May 12 08:12 file3
+-rw-r--r--. 1 root    root      0 May 12 08:12 file4
+-rw-r--r--. 1 root    root      0 May 12 08:12 file5
+-rw-r--r--. 1 root    root      0 May 12 08:12 file6
+-rw-r--r--. 1 root    root      0 May 12 08:12 file7
+-rw-r--r--. 1 root    root      0 May 12 08:12 file8
+-rw-r--r--. 1 root    root      0 May 12 08:12 file9
+drwx------. 3 vagrant vagrant 113 May 12 08:11 [0m[38;5;27mvagrant[0m
+]0;vagrant@lvm:~[vagrant@lvm ~]$ exit
+exit
+
+Script done on Wed 12 May 2021 09:01:08 AM UTC
